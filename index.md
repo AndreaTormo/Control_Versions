@@ -19,19 +19,25 @@ El projecte té 3 desenvolupadors i diverses seccions independents. Git Flow evi
 ## 2. Procés realitzat
 
 ### 2.1 Usuari 1: creació del repositori i estructura inicial
-Descripció i comandes...
+Explica aquí les comandes utilitzades (`git init`, creació de `develop`, commit inicial...).
 
 ![Creació del repositori](img/01-crear-repo.png)
 
 ### 2.2 Usuari 2: features contingutHTML i atributsHTML
+Explica aquí les comandes (`git checkout -b feature/...`, commit, push, merge a develop).
+
 ![Feature contingutHTML](img/03-feature-contingut.png)
 ![Feature atributsHTML](img/04-feature-atributs.png)
 
 ### 2.3 Usuari 3: feature estilsCSS i release v1.0
+Explica aquí les comandes (feature, merge `--no-ff`, branca release, tag `v1.0`).
+
 ![Feature estilsCSS](img/05-feature-estils.png)
 ![Release v1.0](img/06-release.png)
 
 ### 2.4 Usuari 1: hotfix milloresV_1_0
+Explica aquí les comandes (hotfix des de main, merge a main i develop, tag `v1.0.1`).
+
 ![Hotfix](img/07-hotfix.png)
 
 ### 2.5 Resultat final
