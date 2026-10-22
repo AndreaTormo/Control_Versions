@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Modificar atributos HTML</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header><h1>Modificar atributos HTML</h1></header>
+  <nav><a href="index.html">Home</a></nav>
+  <main>
+    <a id="enlace" href="https://www.google.com">Enlace a Google</a>
+    <button onclick="cambiarEnlace()">Cambiar enlace</button>
+    <h2>Explicación del código</h2>
+    <p><code>setAttribute</code> modifica el valor de un atributo de un elemento. Aquí cambia el <code>href</code> del enlace.</p>
+    <script>
+      function cambiarEnlace() {
+        var enlace = document.getElementById("enlace");
+        enlace.setAttribute("href", "https://developer.mozilla.org");
+        enlace.innerHTML = "Enlace a MDN";
+      }
+    </script>
+  </main>
+</body>
+</html>
