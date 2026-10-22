@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Modificar contenido HTML</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header><h1>Modificar contenido HTML</h1></header>
+  <nav><a href="index.html">Home</a></nav>
+  <main>
+    <p id="texto">Este es el texto original.</p>
+    <button onclick="cambiarTexto()">Cambiar texto</button>
+    <h2>Explicación del código</h2>
+    <p><code>getElementById</code> localiza el elemento por su id y <code>innerHTML</code> reemplaza su contenido.</p>
+    <script>
+      function cambiarTexto() {
+        document.getElementById("texto").innerHTML = "¡El contenido ha cambiado!";
+      }
+    </script>
+  </main>
+</body>
+</html>
