@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Modificar estilos CSS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header><h1>Modificar estilos CSS</h1></header>
+  <nav><a href="index.html">Home</a></nav>
+  <main>
+    <p id="texto">Este texto cambiará de estilo.</p>
+    <button onclick="cambiarEstilo()">Cambiar estilo</button>
+    <h2>Explicación del código</h2>
+    <p><code>element.style</code> permite modificar propiedades CSS desde JavaScript.</p>
+    <script>
+      // Obtenemos el párrafo por su id
+      function cambiarEstilo() {
+        var texto = document.getElementById("texto");
+        // Modificamos varias propiedades CSS
+        texto.style.color = "red";
+        texto.style.fontSize = "24px";
+        texto.style.backgroundColor = "yellow";
+      }
+    </script>
+  </main>
+</body>
+</html>
